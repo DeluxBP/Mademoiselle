@@ -1,0 +1,247 @@
+<title>Mademoiselle אשדוד</title>
+<meta name="description" content="Mademoiselle באשדוד – הסרת שיער בלייזר אצל מעיין ועיצוב גבות אצל דור. דירוג 5.00 מתוך 79 ביקורות.">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap">
+<style>
+:root{
+  --bg:#fff8f9; --surface:#ffffff; --ink:#2b1f24; --muted:#7a6670;
+  --rose:#d6617f; --rose-dark:#b44463; --blush:#fbe3ea; --line:#f1d9e0;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1317;--surface:#261b21;--ink:#f7eaee;--muted:#b9a2ab;--rose:#ec7f9c;--rose-dark:#f29ab1;--blush:#35232b;--line:#41303a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1317;--surface:#261b21;--ink:#f7eaee;--muted:#b9a2ab;--rose:#ec7f9c;--rose-dark:#f29ab1;--blush:#35232b;--line:#41303a;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+body{margin:0;font-family:"Heebo","Assistant",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:1.3rem;color:var(--rose);text-decoration:none;letter-spacing:.5px}
+nav a{margin-inline-start:18px;text-decoration:none;color:var(--muted);font-size:.95rem}
+nav a:hover{color:var(--rose)}
+.btn{display:inline-block;background:var(--rose);color:#fff;padding:12px 26px;border-radius:999px;text-decoration:none;font-weight:700;border:0}
+.btn:hover{background:var(--rose-dark)}
+.btn.ghost{background:transparent;color:var(--rose);border:2px solid var(--rose)}
+.hero{padding:72px 0 56px;text-align:center;background:radial-gradient(ellipse at top,var(--blush),transparent 70%)}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.2;margin-bottom:14px}
+.hero h1 span{color:var(--rose)}
+.hero p{color:var(--muted);max-width:560px;margin:0 auto 26px;font-size:1.1rem}
+.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.rating{margin-top:26px;color:var(--muted);font-size:.95rem}
+.rating b{color:var(--ink);font-size:1.2rem}
+.stars{color:#f0a73a;letter-spacing:2px}
+section{padding:56px 0}
+h2{font-size:1.8rem;text-align:center;margin-bottom:8px}
+.sub{text-align:center;color:var(--muted);margin-bottom:32px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card .ic{font-size:1.8rem}
+.card h3{margin:6px 0 4px;font-size:1.1rem}
+.card p{color:var(--muted);font-size:.95rem}
+.alt{background:var(--blush)}
+.gallery{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.gallery img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:18px;border:1px solid var(--line);display:block}
+.steps{counter-reset:s;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.steps div{background:var(--surface);border-radius:18px;padding:20px;border:1px solid var(--line)}
+.steps div::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--rose);color:#fff;font-weight:700;margin-bottom:8px}
+.quote{font-size:.97rem}
+.prices{display:grid;gap:10px;max-width:640px;margin:0 auto}
+.price{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 18px}
+.price span{display:block;color:var(--muted);font-size:.88rem}
+.price em{font-style:normal;font-weight:800;color:var(--rose);white-space:nowrap}
+.gallery.brows{display:flex;flex-wrap:wrap;justify-content:center}
+.gallery.brows img{aspect-ratio:3/4;flex:0 1 calc(33.333% - 10px);min-width:150px;width:auto}
+.ph{max-width:640px;margin:24px auto 10px;font-size:1.05rem;color:var(--rose-dark)}
+.tag{display:inline-block;background:var(--blush);color:var(--rose-dark);font-size:.75rem;font-weight:700;border-radius:999px;padding:1px 10px;margin-bottom:6px}
+.quote .who{margin-top:10px;color:var(--muted);font-size:.85rem}
+.contact{text-align:center}
+.contact .card{max-width:520px;margin:0 auto 20px}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+@media (max-width:560px){nav{display:none}}
+</style>
+<div dir="rtl" lang="he">
+
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">Mademoiselle</a>
+    <nav>
+      <a href="#why">למה אצלנו</a>
+      <a href="#team">הצוות</a>
+      <a href="#results">תוצאות</a>
+      <a href="#brows-work">גבות</a>
+      <a href="#laser-prices">מחירון לייזר</a>
+      <a href="#prices">מחירון גבות</a>
+      <a href="#reviews">ביקורות</a>
+      <a href="#contact">יצירת קשר</a>
+    </nav>
+    <a class="btn" href="#contact">לקביעת תור</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>עור חלק, <span>בלי לחשוב על זה יותר</span></h1>
+      <p>Mademoiselle באשדוד: הסרת שיער בלייזר אצל מעיין ועיצוב גבות אצל דור. באווירה נעימה, ביחס אישי ובמקצועיות שמרגישים מהטיפול הראשון.</p>
+      <div class="cta">
+        <a class="btn" href="#contact">קבעי תור עכשיו</a>
+        <a class="btn ghost" href="#reviews">מה אומרות הלקוחות</a>
+      </div>
+      <div class="rating"><span class="stars">★★★★★</span> לייזר: <b>5.00</b> (79 ביקורות) · גבות: <b>4.99</b> (147 ביקורות)</div>
+    </div>
+  </div>
+
+  <section id="why">
+    <div class="wrap">
+      <h2>למה לבחור ב-Mademoiselle</h2>
+      <p class="sub">כי הסרת שיער צריכה להרגיש בנוח, ולהביא תוצאות.</p>
+      <div class="grid">
+        <div class="card"><div class="ic">✨</div><h3>תוצאות כבר מההתחלה</h3><p>הבדל מורגש כבר בטיפולים הראשונים, שממשיך להשתפר מטיפול לטיפול.</p></div>
+        <div class="card"><div class="ic">🤍</div><h3>יחס אישי ואווירה טובה</h3><p>מרגישים בנוח כבר בפעם הראשונה, בלי לחץ ובלי מבוכה.</p></div>
+        <div class="card"><div class="ic">🎓</div><h3>ידע וניסיון</h3><p>ניסיון רחב בהסרת שיער, כולל התאמה לנערות ולילדות בעדינות ובסבלנות.</p></div>
+        <div class="card"><div class="ic">🔬</div><h3>מכשיר מתקדם</h3><p>טיפולי לייזר במכשיר InMode Optimas, מהמתקדמים בתחום האסתטיקה.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="alt">
+    <div class="wrap">
+      <h2>הצוות</h2>
+      <p class="sub">שתי מומחיות, קליניקה אחת.</p>
+      <div class="grid">
+        <div class="card"><div class="ic">⚡</div><h3>מעיין – הסרת שיער בלייזר</h3><p>ידע רחב וניסיון בהסרת שיער, כולל נערות וילדות. מלווה אותך לאורך כל הסדרה עם יחס אישי ותוצאות שרואים.</p><p style="margin-top:10px"><a href="https://www.instagram.com/maayan.barebi/" target="_blank" rel="noopener">@maayan.barebi</a> · <a href="https://www.facebook.com/m.yyn.brby/" target="_blank" rel="noopener">Laser By Maayan</a> · <a href="https://www.threads.com/@maayan.barebi" target="_blank" rel="noopener">Threads</a></p></div>
+        <div class="card"><div class="ic">👁️</div><h3>דור שלו – עיצוב ושיקום גבות</h3><p>מעצבת ומשקמת גבות טבעיות. עיצוב ושיקום גבות, עיצוב גבות ופאות, וקורסים והשתלמויות בעיצוב גבות.</p><p style="margin-top:10px"><a href="https://calmark.io/p/yQEn0" target="_blank" rel="noopener"><b>קביעת תור לגבות</b></a> · <a href="https://www.instagram.com/dorshalev_eyebrows/" target="_blank" rel="noopener">@dorshalev_eyebrows</a></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results">
+    <div class="wrap">
+      <h2>לפני ואחרי</h2>
+      <p class="sub">תוצאות אמיתיות מהקליניקה.</p>
+      <div class="gallery">
+        <img src="img/before-after-1.jpg" alt="לפני ואחרי הסרת שיער בלייזר בקו הלסת והלחי" loading="lazy">
+        <img src="img/before-after-2.jpg" alt="לפני ואחרי הסרת שיער בלייזר באזור האוזן והלחי" loading="lazy">
+        <img src="img/before-after-3.jpg" alt="לפני ואחרי הסרת שיער בלייזר בצד הפנים" loading="lazy">
+        <img src="img/before-after-4.jpg" alt="לפני ואחרי הסרת שיער בלייזר בלחי ובצוואר" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="brows-work">
+    <div class="wrap">
+      <h2>העבודות של דור</h2>
+      <p class="sub">עיצוב ושיקום גבות.</p>
+      <div class="gallery brows">
+        <img src="img/brows-1.jpg" alt="עיצוב גבות טבעיות – עבודה של דור" loading="lazy">
+        <img src="img/brows-2.jpg" alt="שיקום ועיצוב גבות – עבודה של דור" loading="lazy">
+        <img src="img/brows-3.jpg" alt="עיצוב גבות מלא – עבודה של דור" loading="lazy">
+        <img src="img/brows-4.jpg" alt="עיצוב גבות בצבע – עבודה של דור" loading="lazy">
+        <img src="img/brows-5.jpg" alt="עיצוב גבות עבות – עבודה של דור" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="laser-prices">
+    <div class="wrap">
+      <h2>מחירון הסרת שיער בלייזר – מעיין</h2>
+      <p class="sub">מחיר לטיפול. ייעוץ לפי תיאום.</p>
+      <h3 class="ph">אזורים</h3>
+      <div class="prices">
+        <div class="price"><div><b>בית שחי</b></div><em>₪100</em></div>
+        <div class="price"><div><b>שפם</b></div><em>₪50</em></div>
+        <div class="price"><div><b>מפשעות</b></div><em>₪150</em></div>
+        <div class="price"><div><b>פנים מלאות</b></div><em>₪250</em></div>
+        <div class="price"><div><b>הסרת שיער ידיים</b></div><em>₪150</em></div>
+        <div class="price"><div><b>הסרת שיער רגליים</b></div><em>₪200</em></div>
+        <div class="price"><div><b>פס בטן</b></div><em>₪50</em></div>
+        <div class="price"><div><b>בטן מלאה</b></div><em>₪100</em></div>
+        <div class="price"><div><b>פס ישבן</b></div><em>₪50</em></div>
+        <div class="price"><div><b>ישבן מלא</b></div><em>₪100</em></div>
+        <div class="price"><div><b>גב עליון / תחתון</b></div><em>₪50</em></div>
+        <div class="price"><div><b>גב מלא</b></div><em>₪150</em></div>
+      </div>
+      <h3 class="ph">שילובי אזורים</h3>
+      <div class="prices">
+        <div class="price"><div><b>מפשעות + בית שחי</b></div><em>₪250</em></div>
+        <div class="price"><div><b>מפשעות + בית שחי + רגליים</b></div><em>₪400</em></div>
+        <div class="price"><div><b>ידיים + רגליים + מפשעות + בית שחי</b></div><em>₪450</em></div>
+      </div>
+      <h3 class="ph">חבילות</h3>
+      <div class="prices">
+        <div class="price"><div><b>ידיים, רגליים, מפשעות ושחי – 10 טיפולים</b></div><em>₪4,000</em></div>
+        <div class="price"><div><b>חבילת פרימיום ללא הגבלת אזורים – 10 טיפולים</b></div><em>₪4,600</em></div>
+        <div class="price"><div><b>חבילת פרימיום 10 טיפולים + פנים</b><span>מבצע</span></div><em>₪5,500</em></div>
+        <div class="price"><div><b>גוף מלא פרימיום – ללא הגבלת אזורים</b><span>טיפול בודד</span></div><em>₪500</em></div>
+        <div class="price"><div><b>גוף מלא פרימיום – הכול כולל פנים</b><span>טיפול בודד</span></div><em>₪600</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="prices" class="alt">
+    <div class="wrap">
+      <h2>מחירון גבות וטיפולים – דור</h2>
+      <p class="sub">מחירי הטיפולים אצל דור.</p>
+      <div class="prices">
+        <div class="price"><div><b>עיצוב גבות טבעיות</b><span>20 דקות · כולל שפם</span></div><em>₪70</em></div>
+        <div class="price"><div><b>עיצוב גבות + פאות</b><span>30 דקות</span></div><em>₪90</em></div>
+        <div class="price"><div><b>עיצוב גבות + צבע</b><span>30 דקות</span></div><em>₪80</em></div>
+        <div class="price"><div><b>עיצוב גבות + צבע + פאות</b><span>40 דקות</span></div><em>₪90</em></div>
+        <div class="price"><div><b>עיצוב גבות תור כפול</b><span>40 דקות</span></div><em>₪140</em></div>
+        <div class="price"><div><b>עיצוב גבות לגבר</b><span>20 דקות</span></div><em>₪30</em></div>
+        <div class="price"><div><b>פאות + סנטר</b><span>10 דקות</span></div><em>₪40</em></div>
+        <div class="price"><div><b>ידיים</b><span>10 דקות</span></div><em>₪30</em></div>
+        <div class="price"><div><b>שעווה גוף</b><span>30 דקות · בית שחי, רגליים, ידיים</span></div><em>החל מ-₪80</em></div>
+        <div class="price"><div><b>טיפול זוהר</b><span>שעה</span></div><em>₪300</em></div>
+        <div class="price"><div><b>טיפול פנים</b><span>שעה וחצי</span></div><em>₪350</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="wrap">
+      <h2>מה אומרות הלקוחות</h2>
+      <p class="sub"><span class="stars">★★★★★</span> לייזר 5.00 (79 ביקורות) · גבות 4.99 (147 ביקורות)</p>
+      <div class="grid">
+        <div class="card quote"><div class="tag">גבות</div>“עבודה הכי מקצועית ונקייה שיש ויחסי אנוש ברמה מאוד גבוהה. נהנתי ממש ועברתי כמה וכמה קוסמטיקאיות! מומלץ ברמות.”<div class="who">יובל מ. · 12/08/2026</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“היחידה שאני סומכת עליה, דור ממש הצילה לי את הגבות!”<div class="who">יובל ק. · 30/08/2025</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“הגעתי לדור פעם ראשונה, פשוט מקצועית ברמות. אני כל כך מרוצה שמצאתי אותה!”<div class="who">ליאת ב. · 15/10/2025</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“הכי טובה בעולם! מקצוענות, רמה הכי גבוהה שיש. מומלץ בחום!”<div class="who">Orian B. · 09/09/2025</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“מוכשרת ומדויקת ברמות.”<div class="who">נועם ב. · 03/07/2026</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“דור מקסימה והבנות שלי אוהבות אותה מאוד.”<div class="who">יעל ב. · 13/03/2026</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“דור המעלפת מספר 1 בגבות.”<div class="who">ספיר ח. · 10/06/2026</div></div>
+        <div class="card quote"><div class="tag">גבות</div>“אין ולא תהיה שנייה לדור שלו!”<div class="who">טוהר כ. · 10/11/2025</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“הבדל מטורף כבר מהטיפול הראשון וממשיך ומשתפר כל טיפול. מעיין הכי מושלמת בעולם וגורמת לכולם להרגיש הכי בנוח שיש.”<div class="who">נועה ש. · 21/07/2026</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“מעיין המקסימה תמיד עונה בחיוב רחב לב, יש לה ידע רחב וניסיון בהסרת שיער לילדות. היא החזירה לבת שלי את הביטחון העצמי ועל כך אהיה לה תמיד אסירת תודה.”<div class="who">מאיה · 15/01/2026</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“מי שלא מגיעה פשוט מפספסת. הבחורה הזו שינתה לי את החיים בכל הקשור להורדת שיער!”<div class="who">אוריה א. · 28/03/2026</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“יחס מושלם ואווירה טובה, מרגישה בנוח כבר בפעם הראשונה. ממש שמחה.”<div class="who">איילת ב. · 12/06/2026</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“וואו, אין שירות כזה ואין לייזר כזה! ממליצה ביותר.”<div class="who">לינוי · 10/06/2026</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“אחרי 2 טיפולים ובקושי צומח שיער 🙌”<div class="who">מלכה א. · 02/09/2025</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“היא מלאה באור ועושה את התורים בצורה הכי כיפית שיש.”<div class="who">רותי ש. · 03/10/2025</div></div>
+        <div class="card quote"><div class="tag">לייזר</div>“הלייזר הכי טוב עם השירות הכי טוב שתעשו!”<div class="who">תמי ח. · 30/07/2025</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="alt contact">
+    <div class="wrap">
+      <h2>מוכנה לקבוע?</h2>
+      <p class="sub">שלחי הודעה ונתאים לך תור.</p>
+      <div class="card">
+        <p><b>Mademoiselle – לייזר וגבות</b></p>
+        <p>📍 אדר 4, אשדוד</p>
+        <p>👁️ גבות (דור): <a href="tel:+972506910096">050-6910096</a></p>
+        <p>⚡ לייזר (מעיין): <a href="tel:+972543446313">054-344-6313</a></p>
+      </div>
+      <a class="btn ghost" href="https://calmark.io/p/yQEn0" target="_blank" rel="noopener">קביעת תור לגבות (דור)</a>
+      <a class="btn" href="https://wa.me/972543446313?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%AA%D7%95%D7%A8">וואטסאפ ללייזר (מעיין)</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p style="margin-bottom:6px"><a href="https://www.instagram.com/maayan.barebi/" target="_blank" rel="noopener">אינסטגרם מעיין</a> · <a href="https://www.facebook.com/m.yyn.brby/" target="_blank" rel="noopener">פייסבוק מעיין</a> · <a href="https://www.instagram.com/dorshalev_eyebrows/" target="_blank" rel="noopener">אינסטגרם דור</a></p>© 2026 Mademoiselle · אדר 4, אשדוד</footer>
+
+</div>
